@@ -1,0 +1,21 @@
+{
+  "name": "lonnie-marketplace",
+  "owner": {
+    "name": "featuring-lonnie"
+  },
+  "metadata": {
+    "description": "Personal plugins for productivity and workflow automation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "workflow-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/featuring-lonnie/workflow-manager-plugin.git"
+      },
+      "description": "Unified workflow management across Slack, Confluence, Jira, GitHub, and Google Calendar",
+      "version": "1.0.0"
+    }
+  ]
+}
