@@ -12,10 +12,10 @@ Personal Claude Code plugin marketplace.
 
 ```bash
 # Add marketplace
-/add-marketplace https://github.com/featuring-lonnie/lonnie-marketplace
+/plugin marketplace add featuring-lonnie/lonnie-marketplace
 
 # Install plugin
-/install-plugin workflow-manager@lonnie-marketplace
+/plugin install workflow-manager@lonnie-marketplace
 ```
 
 ## License
