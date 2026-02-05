@@ -17,26 +17,26 @@ Personal Claude Code plugins for productivity and workflow automation.
 ### 1. Add Marketplace (First Time Only)
 
 ```bash
-claude plugins add-marketplace featuring-lonnie/lonnie-marketplace
+claude plugin marketplace add featuring-lonnie/lonnie-marketplace
 ```
 
 ### 2. Update Marketplace
 
 ```bash
-claude plugins update lonnie-marketplace
+claude plugin marketplace update lonnie-marketplace
 ```
 
 ### 3. Install Plugins
 
 ```bash
 # Workflow Plugins (Team Collaboration)
-claude plugins install dev-workflow@lonnie-marketplace
-claude plugins install pm-workflow@lonnie-marketplace
-claude plugins install de-workflow@lonnie-marketplace
-claude plugins install workflow-common@lonnie-marketplace
+claude plugin install dev-workflow@lonnie-marketplace
+claude plugin install pm-workflow@lonnie-marketplace
+claude plugin install de-workflow@lonnie-marketplace
+claude plugin install workflow-common@lonnie-marketplace
 
 # Other Plugins
-claude plugins install workflow-manager@lonnie-marketplace
+claude plugin install workflow-manager@lonnie-marketplace
 ```
 
 ### 4. Enable Plugins
@@ -121,14 +121,14 @@ Run the appropriate init command to configure:
 ## Update Plugins
 
 ```bash
-claude plugins update lonnie-marketplace
-claude plugins install <plugin>@lonnie-marketplace  # reinstall to update
+claude plugin marketplace update lonnie-marketplace
+claude plugin install <plugin>@lonnie-marketplace  # reinstall to update
 ```
 
 ## Uninstall
 
 ```bash
-claude plugins uninstall dev-workflow@lonnie-marketplace
+claude plugin uninstall dev-workflow@lonnie-marketplace
 ```
 
 ## License
