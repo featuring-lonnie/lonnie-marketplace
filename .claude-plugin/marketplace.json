@@ -16,6 +16,42 @@
       },
       "description": "Unified workflow management across Slack, Confluence, Jira, GitHub, and Google Calendar",
       "version": "1.0.0"
+    },
+    {
+      "name": "dev-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/featuring-lonnie/dev-workflow.git"
+      },
+      "description": "Developer workflow automation - Git, PR, code review with Jira/Slack/Confluence",
+      "version": "1.0.0"
+    },
+    {
+      "name": "pm-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/featuring-lonnie/pm-workflow.git"
+      },
+      "description": "PM workflow automation - Jira tickets, PRD, release notes, stakeholder updates",
+      "version": "1.0.0"
+    },
+    {
+      "name": "de-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/featuring-lonnie/de-workflow.git"
+      },
+      "description": "Designer workflow automation - Figma, design specs, dev handoff",
+      "version": "1.0.0"
+    },
+    {
+      "name": "workflow-common",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/featuring-lonnie/workflow-common.git"
+      },
+      "description": "Common workflow commands - role selection, unified status",
+      "version": "1.0.0"
     }
   ]
 }
