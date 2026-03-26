@@ -52,6 +52,15 @@
       },
       "description": "Common workflow commands - role selection, unified status",
       "version": "1.0.0"
+    },
+    {
+      "name": "ft",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/featuring-lonnie/ft.git"
+      },
+      "description": "Dev workflow automation v2 - SDD + SDLC, Jira/Slack/Confluence/GitHub",
+      "version": "0.1.0"
     }
   ]
 }
